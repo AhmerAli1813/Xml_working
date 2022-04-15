@@ -4,7 +4,7 @@
 <!ELEMENT name (fname,lname)>
 <!ELEMENT gender (#PCDATA) >
 <!ATTLIST gender Type (male|Female|other)  #REQUIRED  >
-
+<!ENTITY iphone "iphone13plus">
 <!ELEMENT email (#PCDATA)>
 <!ELEMENT phone (#PCDATA)>
 <!ELEMENT fname (#PCDATA)>
@@ -19,7 +19,7 @@
     <fname>Ahmer</fname>
     <lname>Ali</lname>
 </name>
-<gender Type="other">Male</gender>
+<gender Type="other">&iphone;</gender>
 <email>ahmerali44107@gmail.com</email>
 <phone>034097365432</phone>
 </person>
