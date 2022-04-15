@@ -1,0 +1,25 @@
+ <!DOCTYPE person [
+     
+ <!ELEMENT person (name,gender,email,phone)>
+<!ELEMENT name (fname,lname)>
+<!ELEMENT gender (#PCDATA) >
+<!ATTLIST gender Type (male|Female|other)  #REQUIRED  >
+
+<!ELEMENT email (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT fname (#PCDATA)>
+<!ELEMENT lname (#PCDATA)>
+<!ENTITY hp "head"> 
+
+
+ ]> 
+<person >
+<name>
+    
+    <fname>Ahmer</fname>
+    <lname>Ali</lname>
+</name>
+<gender Type="other">Male</gender>
+<email>ahmerali44107@gmail.com</email>
+<phone>034097365432</phone>
+</person>
